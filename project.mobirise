@@ -50,15 +50,24 @@
     "versionPublish": "4.10.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/icon.png",
-    "noImageResize": "true",
+    "noImageResize": "",
     "google-analytics": "<!-- Yandex.Metrika counter -->\r\n<script type=\"text/javascript\" >\r\n   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\r\n   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})\r\n   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");\r\n\r\n   ym(43127564, \"init\", {\r\n        clickmap:true,\r\n        trackLinks:true,\r\n        accurateTrackBounce:true,\r\n        webvisor:true,\r\n        trackHash:true\r\n   });\r\n</script>\r\n<noscript><div><img src=\"https://mc.yandex.ru/watch/43127564\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\r\n<!-- /Yandex.Metrika counter -->",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
+    "robotsSwitcher": "on",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "cookiesAlert": "",
     "gdpr": "",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "customCookies": {
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "Мы используем файлы cookie для того, чтобы предоставить Вам больше возможностей при использовании сайта. Прочитайте нашу <a href='privacy.html'>политику в отношении файлов cookie</a>."
+    }
   },
   "pages": {
     "index.html": {
